@@ -1,0 +1,298 @@
+header {
+  height: 85px;
+  background: #FFF;
+}
+
+header .w {
+  height: inherit;
+}
+
+header h1 {
+  width: 127px;
+  height: 65px;
+  padding-top: 20px;
+  margin-right: 10px;
+}
+
+header .w>div {
+  height: 36px;
+  width: 180px;
+  line-height: 18px;
+  padding-left: 9px;
+  margin-top: 31px;
+  color: #898989;
+  border-left: 1px solid #999;
+}
+
+header .w ul {
+  height: 85px;
+  line-height: 85px;
+}
+
+header .w ul li {
+  padding: 0 17px;
+}
+
+#hl {
+  color: red;
+}
+
+.banner {
+  height: 430px;
+  background: url(../images/index/banner1.jpg);
+}
+
+.service {
+  height: 675px;
+}
+
+.service .serImg {
+  height: 150px;
+}
+
+.service .serImg img {
+  padding-top: 37px;
+}
+
+.service>figure {
+  width: 377px;
+  height: 460px;
+  margin-right: 34px;
+  border-bottom: 2px solid #ccc;
+}
+
+.service>figure:last-child {
+  margin-right: 0;
+}
+
+.service>figure>figcaption {
+  width: 377px;
+  height: 180px;
+}
+
+.service>figure>figcaption>h2 {
+  height: 65px;
+  line-height: 65px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.service>figure>figcaption p {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.service>figure>figcaption>a {
+  width: 114px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #0187e6;
+  border-radius: 3px;
+  color: #FFF;
+  margin-top: 18px;
+  margin-left: 66px;
+  float: left;
+}
+
+.service>figure>figcaption>a:last-child {
+  margin-left: 15px;
+}
+
+.service>figure>figcaption>a:hover {
+  color: #00FF00;
+}
+
+.prop {
+  height: 616px;
+  /* background: #FFF; */
+}
+
+.prop>h2 {
+  height: 131px;
+  line-height: 131px;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  font-weight: 100;
+}
+
+.prop ul {
+  width: 1100px;
+  height: 243px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.prop ul li {
+  display: inline-block;
+  width: 196px;
+  height: 200px;
+}
+
+.prop ul>li:nth-child(2) {
+  margin : 0 200px;
+}
+
+.prop ul li span {
+  display: block;
+  width: 131px;
+  height: 131px;
+  margin: 0 auto;
+  color: #2f80d4;
+  background: url(../images/index/sbj.png);
+  margin-bottom: 20px;
+}
+
+.prop li h2 {
+  height: 40px;
+  font-size: 34px;
+  line-height: 40px;
+  padding-top: 30px;
+}
+
+.prop li span p {
+  font-size: 12px;
+  line-height: 48px;
+}
+
+.prop li>p {
+  height: 24px;
+  line-height: 24px;
+}
+
+.link {
+  height: 700px;
+}
+
+.link h2 {
+  height: 126px;
+  line-height: 126px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.link ul {
+  height: 151px;
+  background: #fff;
+}
+
+.link ul li {
+  width: 239px;
+  height: 150px;
+  border-bottom: 1px dashed #ccc;
+  border-right: 1px dashed #ccc;
+  float: left;
+}
+
+.link ul>li:last-child {
+  border-right: 0;
+}
+
+/* ？？？？？ */
+.link>ul:nth-child(4)>li {
+  border-bottom: 0;
+}
+
+
+.link ul li a {
+  display: block;
+  width: 239px;
+  height: 150px;
+  background: url(../images/index/anli1.png) no-repeat center -150px;
+  transition: background-position 0.5s;
+}
+
+.link ul li a:hover {
+  background-position: top;
+}
+
+.link>a {
+  display: block;
+  width: 185px;
+  height: 45px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 45px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+footer {
+  height: 195px;
+  background: #535353;
+}
+
+footer .content {
+  width: 1199px;
+  margin: 0 auto;
+}
+
+footer .logo {
+  color: #666;
+  line-height: 40px;
+  font-size: 22px;
+  width: 314px;
+  margin: 20px 200px auto 100px;
+}
+
+footer .tel {
+  width: 220px;
+  height: 154px;
+  margin-top: 40px;
+}
+
+footer .tel>p {
+  height: 43px;
+  line-height: 43px;
+  padding-left: 30px;
+  color: #63a7cc;
+  font-size: 18px;
+  margin-right: 81px;
+}
+
+footer .tel>p:first-child {
+  height: 45px;
+  line-height: 45px;
+  font-size: 22px;
+  color: #666;
+  background: url(../images/index/tel.png) no-repeat left;
+}
+
+footer .tel>p:last-child {
+  width: 228px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 12px;
+  color: #666;
+}
+
+footer .mail {
+  height: 154px;
+  margin-top: 40px;
+}
+
+footer .mail p {
+  font-size: 12px;
+  line-height: 44px;
+  padding-left: 30px;
+}
+
+footer .mail p:first-child {
+  background: url(../images/index/email.png) no-repeat left;
+}
+
+footer .mail p:last-child {
+  background: url(../images/index/add.png) no-repeat left;
+}
+
+.copyright {
+  background: #535353;
+  font-size: 12px;
+  line-height: 38px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
